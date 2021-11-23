@@ -13,7 +13,7 @@ import org.mapstruct.factory.Mappers;
  * @description
  * @date 2021/11/23
  */
-@Mapper
+//@Mapper
 public interface ItemConvert {
 
     ItemConvert instance = Mappers.getMapper(ItemConvert.class);
